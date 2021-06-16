@@ -471,7 +471,7 @@ tape( 'if an environment supports `Symbol.iterator`, the function returns a cons
 	var i;
 
 	iterFlow = proxyquire( './../lib/main.js', {
-		'@stdlib/symbol/iterator': '__ITERATOR_SYMBOL__'
+		'@stdlib/symbol-iterator': '__ITERATOR_SYMBOL__'
 	});
 
 	Iterator = iterFlow({
@@ -502,7 +502,7 @@ tape( 'if an environment does not support `Symbol.iterator`, the function return
 	var it;
 
 	iterFlow = proxyquire( './../lib/main.js', {
-		'@stdlib/symbol/iterator': false
+		'@stdlib/symbol-iterator': false
 	});
 
 	Iterator = iterFlow({
