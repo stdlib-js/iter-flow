@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/iter-flow",
-  "version": "0.0.7",
+  "version": "0.0.0",
   "description": "Create a fluent interface for chaining together iterator methods.",
   "license": "Apache-2.0",
   "author": {
