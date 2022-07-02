@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.iterFlow;
+})();
 })();
 </script>
 ```
@@ -246,6 +248,7 @@ v = it2.next().value;
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-flow@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 // Create a "fluent" interface:
 var FluentIterator = iterFlow({
@@ -271,6 +274,7 @@ it = new FluentIterator( arr );
 bool = it.head( 5 ).some( 3 );
 // returns false
 
+})();
 })();
 </script>
 </body>
@@ -376,7 +380,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/iter/pipeline]: https://github.com/stdlib-js/iter-pipeline/tree/umd
+[@stdlib/iter/pipeline]: https://github.com/stdlib-js/iter-pipeline/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
