@@ -42,7 +42,7 @@
     "@stdlib/assert-is-object": "^0.1.1",
     "@stdlib/string-format": "^0.1.1",
     "@stdlib/symbol-iterator": "^0.1.1",
-    "@stdlib/types": "^0.1.0",
+    "@stdlib/types": "^0.2.0",
     "@stdlib/utils-define-nonenumerable-property": "^0.1.1",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1",
     "@stdlib/utils-keys": "^0.1.0"
@@ -50,7 +50,7 @@
   "devDependencies": {
     "@stdlib/array-to-iterator": "^0.1.0",
     "@stdlib/assert-is-boolean": "^0.1.1",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.0",
     "@stdlib/iter-head": "^0.1.0",
     "@stdlib/iter-some": "^0.1.0",
     "@stdlib/iter-some-by": "^0.1.0",
