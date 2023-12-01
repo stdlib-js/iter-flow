@@ -50,7 +50,7 @@
   "devDependencies": {
     "@stdlib/array-to-iterator": "^0.1.0",
     "@stdlib/assert-is-boolean": "^0.1.1",
-    "@stdlib/bench": "^0.2.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/iter-head": "^0.1.0",
     "@stdlib/iter-some": "^0.1.0",
     "@stdlib/iter-some-by": "^0.1.0",
