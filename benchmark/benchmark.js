@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var isFunction = require( '@stdlib/assert-is-function' );
 var isIteratorLike = require( '@stdlib/assert-is-iterator-like' );
 var isBoolean = require( '@stdlib/assert-is-boolean' ).isPrimitive;
