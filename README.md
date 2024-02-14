@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterFlow from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-flow@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/iter-flow/tags). For example,
+
+```javascript
 import iterFlow from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-flow@v0.2.0-deno/mod.js';
 ```
 
@@ -227,7 +232,7 @@ v = it2.next().value;
 import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@deno/mod.js';
 import iterHead from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-head@deno/mod.js';
 import iterSome from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-some@deno/mod.js';
-import iterFlow from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-flow@v0.2.0-deno/mod.js';
+import iterFlow from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-flow@deno/mod.js';
 
 // Create a "fluent" interface:
 var FluentIterator = iterFlow({
