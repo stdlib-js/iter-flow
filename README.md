@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterFlow from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-flow@esm/index.mjs';
+import iterFlow from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-flow@v0.2.2-esm/index.mjs';
 ```
 
 #### iterFlow( methods )
@@ -232,7 +232,7 @@ v = it2.next().value;
 import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@esm/index.mjs';
 import iterHead from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-head@esm/index.mjs';
 import iterSome from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-some@esm/index.mjs';
-import iterFlow from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-flow@esm/index.mjs';
+import iterFlow from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-flow@v0.2.2-esm/index.mjs';
 
 // Create a "fluent" interface:
 var FluentIterator = iterFlow({
