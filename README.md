@@ -45,32 +45,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/iter-flow
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var iterFlow = require( '@stdlib/iter-flow' );
+import iterFlow from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-flow@deno/mod.js';
 ```
 
 #### iterFlow( methods )
@@ -78,8 +60,8 @@ var iterFlow = require( '@stdlib/iter-flow' );
 Returns a fluent interface [iterator][mdn-iterator-protocol] constructor with a customized `prototype` based on provided `methods`.
 
 ```javascript
-var iterHead = require( '@stdlib/iter-head' );
-var iterSome = require( '@stdlib/iter-some' );
+import iterHead from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-head@deno/mod.js';
+import iterSome from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-some@deno/mod.js';
 
 // Create a mini-fluent interface having just the methods `head` and `some`:
 var FluentIterator = iterFlow({
@@ -110,9 +92,9 @@ If an [iterator][mdn-iterator-protocol] function returns an [iterator][mdn-itera
 Returns a new fluent interface [iterator][mdn-iterator-protocol] from a source [`iterator`][mdn-iterator-protocol].
 
 ```javascript
-var array2iterator = require( '@stdlib/array-to-iterator' );
-var iterHead = require( '@stdlib/iter-head' );
-var iterSome = require( '@stdlib/iter-some' );
+import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@deno/mod.js';
+import iterHead from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-head@deno/mod.js';
+import iterSome from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-some@deno/mod.js';
 
 // Create a mini-fluent interface having just the methods `head` and `some`:
 var FluentIterator = iterFlow({
@@ -136,9 +118,9 @@ var bool = it.head( 5 ).some( 3 );
 Returns an [iterator][mdn-iterator-protocol] protocol-compliant object containing the next iterated value (if one exists) assigned to a `value` property and a `done` property having a `boolean` value indicating whether the [iterator][mdn-iterator-protocol] is finished.
 
 ```javascript
-var array2iterator = require( '@stdlib/array-to-iterator' );
-var iterHead = require( '@stdlib/iter-head' );
-var iterSome = require( '@stdlib/iter-some' );
+import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@deno/mod.js';
+import iterHead from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-head@deno/mod.js';
+import iterSome from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-some@deno/mod.js';
 
 // Create a mini-fluent interface having just the methods `head` and `some`:
 var FluentIterator = iterFlow({
@@ -171,9 +153,9 @@ while ( true ) {
 Closes a fluent interface [iterator][mdn-iterator-protocol] and returns a single (optional) argument in an [iterator][mdn-iterator-protocol] protocol-compliant object.
 
 ```javascript
-var array2iterator = require( '@stdlib/array-to-iterator' );
-var iterHead = require( '@stdlib/iter-head' );
-var iterSome = require( '@stdlib/iter-some' );
+import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@deno/mod.js';
+import iterHead from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-head@deno/mod.js';
+import iterSome from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-some@deno/mod.js';
 
 // Create a mini-fluent interface having just the methods `head` and `some`:
 var FluentIterator = iterFlow({
@@ -242,10 +224,10 @@ v = it2.next().value;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var array2iterator = require( '@stdlib/array-to-iterator' );
-var iterHead = require( '@stdlib/iter-head' );
-var iterSome = require( '@stdlib/iter-some' );
-var iterFlow = require( '@stdlib/iter-flow' );
+import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@deno/mod.js';
+import iterHead from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-head@deno/mod.js';
+import iterSome from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-some@deno/mod.js';
+import iterFlow from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-flow@deno/mod.js';
 
 // Create a "fluent" interface:
 var FluentIterator = iterFlow({
@@ -307,7 +289,7 @@ bool = it.head( 5 ).some( 3 );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -374,7 +356,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/iter/pipeline]: https://github.com/stdlib-js/iter-pipeline
+[@stdlib/iter/pipeline]: https://github.com/stdlib-js/iter-pipeline/tree/deno
 
 <!-- </related-links> -->
 
