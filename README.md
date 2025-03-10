@@ -96,8 +96,8 @@ function iterFcn( iterator[, ...args] ) {...}
 
 where
 
--   **iterator**: an [iterator][mdn-iterator-protocol]
--   **...args**: additional [iterator][mdn-iterator-protocol] function arguments
+-   **iterator**: an [iterator][mdn-iterator-protocol].
+-   **...args**: additional [iterator][mdn-iterator-protocol] function arguments.
 
 When a fluent interface [iterator][mdn-iterator-protocol] method is invoked, the method invokes the corresponding [iterator][mdn-iterator-protocol] function with an [iterator][mdn-iterator-protocol] and provided method arguments.
 
@@ -324,7 +324,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
